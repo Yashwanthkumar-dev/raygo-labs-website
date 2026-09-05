@@ -14,7 +14,7 @@ const Navbar = () => {
   ];
   return (
     <>
-      <nav className="flex items-center justify-between px-5 fixed top-0 bg-background/80 w-full z-60 backdrop-blur-lg">
+      <nav className="flex items-center justify-between px-5 fixed top-0 bg-background/30 w-full z-60 backdrop-blur-2xl border border-b-text/20">
         {/* logo div */}
         <section>
           <img src={logo} alt="Raygo Labs" className="w-20" />
@@ -50,7 +50,7 @@ const Navbar = () => {
           className={`fixed h-screen bg-black/5 backdrop-blur-2xl duration-700 transition-transfrom border w-full  transition-opacity dura ${open ? "opacity-100 visible" : "opacity-0 invisible"}`}
         ></div>
         <ul
-          className={`text-white absolute bg-background flex flex-col capitalize gap-y-2  px-6 py-4 h-screen w-50 duration-500 transition-transform transform ease-in-out overflow-hidden  z-50  right-0  ${open ? "translate-x-0 " : "translate-x-full"} fixed top-20 z-50`}
+          className={`text-white absolute bg-background/30 flex flex-col capitalize gap-y-2  px-6 py-4 h-screen w-50 duration-500 transition-transform transform ease-in-out overflow-hidden  z-50  right-0  ${open ? "translate-x-0 " : "translate-x-full"} fixed top-20 z-50`}
         >
           {navigation.map((navs, index) => (
             <li

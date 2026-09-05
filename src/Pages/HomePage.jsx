@@ -2,7 +2,7 @@ const HomePage = () => {
   return (
     <>
       {/* hero section */}
-      <section className="pt-30 text-main-text mx-8 space-y-7 ">
+      <section className="pt-30 text-main-text mx-8 space-y-7 py-20">
         <h3 className="text-text font-mono capitalize text-sm w-70 leading-relaxed tracking-wider">
           RAYGO LABS / DIGITAL TECHNOLOGY STUDIO
         </h3>
@@ -29,6 +29,31 @@ const HomePage = () => {
             <span class="w-1/2 drop-shadow-3xl transition-all duration-300 block border-[#D4EDF9] absolute h-[20%] rounded-br-lg border-r-2 border-b-2 right-0 bottom-0"></span>
           </button>
         </div>
+      </section>
+
+      {/* Introduction section */}
+      <section className="border-text/30 border-t  text-main-text mx-8 py-10 space-y-12 overflow-hidden">
+        <h2 className="font-semibold text-3xl leading-11 w-80 ">
+          Technology built around your business.
+        </h2>
+        <p className="leading-8 text-xl text-main-text/60 text-left w-90">
+          Every business has different goals, customers and challenges. RAYGO
+          Labs creates digital solutions tailored to the way your business
+          actually works - from high-performing websites and modern redesigns to
+          custom software, CRM systems, cloud infrastructure and intelligent
+          automation.
+        </p>
+        <div className="relative inline-block">
+          <div className=" bg-white/40 w-30 h-10 rounded-full absolute top-1 right-0 blur-3xl"></div>
+          <button className="relative text-inter text-lg border py-4 px-8 text-center rounded-xl text-main-text/40 border-text backdrop-blur-lg z-60">
+            Discover Raygo Labs
+          </button>
+        </div>
+      </section>
+
+      {/* services section */}
+      <section>
+        <h2></h2>
       </section>
     </>
   );
