@@ -16,11 +16,11 @@ const Navbar = () => {
     <>
       <nav className="flex items-center justify-between px-5 fixed top-0 bg-background/80 w-full z-60 backdrop-blur-lg">
         {/* logo div */}
-        <div>
+        <section>
           <img src={logo} alt="Raygo Labs" className="w-20" />
-        </div>
+        </section>
         {/* nav div */}
-        <div className="hidden">
+        <section className="hidden">
           <ul className="flex">
             {navigation.map((navs) => {
               return (
@@ -30,13 +30,13 @@ const Navbar = () => {
               );
             })}
           </ul>
-        </div>
+        </section>
         {/* contact div */}
-        <div className="hidden">
+        <section className="hidden">
           <button className="text-white border-white/40 border px-5 py-2 rounded-lg">
             Book a call
           </button>
-        </div>
+        </section>
         {/* menu button */}
         <div onClick={() => isOpen(!open)}>
           <i>
