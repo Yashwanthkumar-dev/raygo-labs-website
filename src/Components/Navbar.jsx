@@ -55,7 +55,7 @@ const Navbar = () => {
           {navigation.map((navs, index) => (
             <li
               key={index}
-              className="flex items-center text-lg justify-between px-2 border-b border-b-text py-4 group-hover:hidden"
+              className="flex items-center text-lg justify-between px-2 border-b border-b-text py-4 "
             >
               {navs}
               <ArrowRight
