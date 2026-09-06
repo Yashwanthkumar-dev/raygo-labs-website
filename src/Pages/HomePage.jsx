@@ -100,7 +100,7 @@ const HomePage = () => {
         <h2 className="font-semibold text-3xl leading-11 w-80">
           Technology built around your business.
         </h2>
-        <p className="leading-8 text-xl text-main-text/60 text-left w-90">
+        <p className="leading-8 text-xl text-main-text/60 text-left w-77">
           Every business has different goals, customers and challenges. RAYGO
           Labs creates digital solutions tailored to the way your business
           actually works - from high-performing websites and modern redesigns to
@@ -153,17 +153,17 @@ const HomePage = () => {
                 <div
                   className={`relative h-full p-8 rounded-3xl transition-all duration-500 flex flex-col justify-between ${
                     isActive
-                      ? "bg-card border-2 border-main-text shadow-xl shadow-main-text/30 opacity-100 scale-100 z-20"
+                      ? "bg-card border-2 border-main-text shadow-xl shadow-main-text/20 opacity-100 scale-100 z-20"
                       : "bg-card/40 border border-white/10 opacity-30 backdrop-blur-md scale-90 z-0"
                   }`}
                 >
-                  <div className="space-y-4">
+                  <div className="space-y-7">
                     <span
                       className={`text-sm font-mono font-bold block transition-colors ${
                         isActive ? "text-main-text" : "text-zinc-600"
                       }`}
                     >
-                      {servcies.id}
+                      # {servcies.id}
                     </span>
                     <h3
                       className={`text-2xl font-bold transition-colors ${
