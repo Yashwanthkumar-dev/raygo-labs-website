@@ -73,7 +73,7 @@ const HomePage = () => {
         <h1 className="text-5xl text-left leading-15 font-semibold w-80 tracking-wide">
           Build digital experiences that move your business forward.
         </h1>
-        <h2 className="text-main-text/70 text-left leading-10 text-xl w-83 sm:w-86 overflow-hidden">
+        <h2 className="text-main-text/70 text-left leading-10 text-xl  overflow-hidden text-wrap">
           RAYGO Labs helps businesses build powerful websites, custom software,
           CRM solutions and cloud-powered digital systems designed to perform,
           scale and grow.
@@ -100,7 +100,7 @@ const HomePage = () => {
         <h2 className="font-semibold text-3xl leading-11 w-80">
           Technology built around your business.
         </h2>
-        <p className="leading-8 text-xl text-main-text/60 text-left w-77">
+        <p className="leading-8 text-xl text-main-text/60 text-left text-wrap">
           Every business has different goals, customers and challenges. RAYGO
           Labs creates digital solutions tailored to the way your business
           actually works - from high-performing websites and modern redesigns to
