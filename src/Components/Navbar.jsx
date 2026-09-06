@@ -45,9 +45,10 @@ const Navbar = () => {
         </div>
       </nav>
       <div className="text-left relative">
+        {/* background blur */}
         <div
           onClick={() => isOpen(false)}
-          className={`fixed h-screen bg-black/5 backdrop-blur-2xl duration-700 transition-transfrom border w-full  transition-opacity dura ${open ? "opacity-100 visible" : "opacity-0 invisible"}`}
+          className={`fixed h-screen bg-black/5 backdrop-blur-2xl duration-700 transition-transfrom border w-full z-50 transition-opacity dura ${open ? "opacity-100 visible" : "opacity-0 invisible"}`}
         ></div>
         <ul
           className={`text-white absolute bg-background/30 flex flex-col capitalize gap-y-2  px-6 py-4 h-screen w-50 duration-500 transition-transform transform ease-in-out overflow-hidden  z-50  right-0  ${open ? "translate-x-0 " : "translate-x-full"} fixed top-20 z-50`}

@@ -109,7 +109,7 @@ const HomePage = () => {
         </p>
         <div className="relative inline-block z-50">
           <div className="bg-white/40 w-30 h-10 rounded-full absolute top-1 right-0 blur-3xl"></div>
-          <button className="relative text-inter text-lg border py-4 px-8 text-center rounded-xl text-main-text/40 border-text backdrop-blur-lg z-50">
+          <button className="relative text-inter text-lg border py-4 px-8 text-center rounded-xl text-main-text/40 border-text backdrop-blur-lg z-40">
             Discover Raygo Labs
           </button>
         </div>
@@ -142,7 +142,7 @@ const HomePage = () => {
             disableOnInteraction: false,
           }}
           modules={[EffectCoverflow, Autoplay]}
-          className="w-full !py-12"
+          className="w-full py-12"
         >
           {serviceDetails.map((servcies) => (
             <SwiperSlide
@@ -153,8 +153,8 @@ const HomePage = () => {
                 <div
                   className={`relative h-full p-8 rounded-3xl transition-all duration-500 flex flex-col justify-between ${
                     isActive
-                      ? "bg-[#0E1015] border-2 border-main-text shadow-xl shadow-main-text/30 opacity-100 scale-100 z-20"
-                      : "bg-[#0E1015]/40 border border-white/10 opacity-30 backdrop-blur-md scale-90 z-0"
+                      ? "bg-card border-2 border-main-text shadow-xl shadow-main-text/30 opacity-100 scale-100 z-20"
+                      : "bg-card/40 border border-white/10 opacity-30 backdrop-blur-md scale-90 z-0"
                   }`}
                 >
                   <div className="space-y-4">
